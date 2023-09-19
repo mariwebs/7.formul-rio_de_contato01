@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Form de ctt</title>
+
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+
+    <form action="" autocomplete="off">
+        <fieldset>
+            <legend>Formulário de contato</legend>
+
+            <label for="name">Nome</label>
+                <input type="text" id="name" required placeholder="Digite seu nome completo">
+
+            <label for="email">Email</label>
+                <input type="email" id="email" required placeholder="Digite seu Email válido">
+
+            <label for="subject">Assunto</label>
+            <input type="text" name="subject" id="subject">
+
+            <label for="message">Menssagem</label>
+            <textarea name="message" id="message" rows="7" required maxlength="1000" minlength="20" placeholder="Conte-nos tudo!"></textarea>
+
+            <button type="submit" class="brn">Enviar</button>
+            
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
